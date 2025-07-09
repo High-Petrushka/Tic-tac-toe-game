@@ -1,0 +1,26 @@
+.cont {
+  width: 100%;
+  height: fit-content;
+
+  display: grid;
+  gap: 4rem;
+}
+
+.cont__text {
+  display: grid;
+  gap: 1rem;
+}
+
+.title {
+  line-height: 0.9;
+}
+
+@media screen and (width >= 1024px) {
+  .cont {
+    gap: 6rem;
+  }
+
+  .cont__text {
+    gap: 1.5rem;
+  }
+}
