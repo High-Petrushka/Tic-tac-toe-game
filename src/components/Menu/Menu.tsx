@@ -1,6 +1,10 @@
 import styles from "./Menu.module.scss";
 
-export default function Menu({ handleStart }) {
+type MenuProps = {
+  handleStart: () => void;
+}
+
+export default function Menu({ handleStart }: MenuProps) {
   return (
     <>
       <div className={styles.cont}>

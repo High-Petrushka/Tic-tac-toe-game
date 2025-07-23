@@ -6,6 +6,12 @@ h1 {
   line-height: 1.4;
 }
 
+h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 p {
   font-size: 1.6rem;
   font-weight: 400;
@@ -15,6 +21,10 @@ p {
 @media screen and (width >= 1024px) {
   h1 {
     font-size: 5.6rem;
+  }
+
+  h3 {
+    font-size: 3.8rem;
   }
 
   p {

@@ -1,0 +1,29 @@
+.cont {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.score {
+  padding: 0rem 4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (width >= 1024px) {
+  .cont {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+  }
+
+  .score {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
